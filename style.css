@@ -95,7 +95,7 @@ h2 {
 
 /* Setting the layout for the second text layout inside the story 2(WHY THE CORAL BLEACH?) */
 #reason2 {
-margin-top: 55px;
+    margin-top: 55px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -178,7 +178,6 @@ margin-top: 55px;
 
 /* Setting the chart layout inside the story 3(DATA) (3/3)*/
 #chart3_layout {
-    margin-top: 50px;
     width: 80%;
     display: flex;
     flex-direction: column;
