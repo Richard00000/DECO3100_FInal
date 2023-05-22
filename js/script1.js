@@ -274,7 +274,7 @@ Plotly.d3.csv("csv/ASTC.csv", surface_data => {
         },
 
 
-        //The style for the hover/label
+        //The style for the hoverlabel
         hovermode: 'closest',
         hoverlabel: {
             bgcolor: "#051622",
@@ -284,7 +284,7 @@ Plotly.d3.csv("csv/ASTC.csv", surface_data => {
                 color: '#FFCF9C'
             }
         },
-        
+
         //Call the buttons
         updatemenus: myUpdatemenus,
     }
