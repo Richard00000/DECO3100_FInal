@@ -57,7 +57,7 @@ h2 {
     align-items: center;
 }
 
-/* Setting the layout for text inside the story 1(WHAT IS BLEACHING OF CORAL REEFS?) */
+/* Setting the text layout inside the story 1(WHAT IS BLEACHING OF CORAL REEFS?) */
 #description1 {
     font-weight: 400;
     font-size: 22px;
@@ -214,6 +214,7 @@ h2 {
     justify-content: center;
 }
 
+/* Setting the layout for the incon in story 4(WHAT WE CAN DO?) */
 #action {
     width: 80%;
     display: flex;
@@ -257,7 +258,10 @@ h2 {
 /* Setting the layout for text inside the story 4(WHAT WE CAN DO?) */
 #description5 {
     width: 75%;
-    background-color: #007CC7;
+    /* background-color: #007CC7; */
+    border-color: #FFCF9C;
+    border-width: 3px;
+    border-style: solid;
     border-radius: 10px;
     padding: 25px;
     margin-top: 50px;
@@ -291,7 +295,12 @@ h2 {
     justify-content: center;
 }
 
-/* Setting the frame & layout for 2 button in side the story story 5(Read More) */
+/* Setting the frame & layout for two button in side the story story 5(Read More) */
+
+a{
+    text-decoration: none;
+}
+
 #button1 {
     display: flex;
     flex-direction: row;
@@ -302,12 +311,20 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 12px;
-    color: #F7F7F7;
-    background-color: #007CC7;
-    border: none;
+    color: #FFCF9C;
+    background-color: #051622;
+    border-color: #FFCF9C;
+    border-width: 1px;
+    border-style: solid;
     text-align: center;
     font-size: 24px;
     line-height: 28px;
     padding: 20px;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#button1:hover {
+    background-color: #FFCF9C;
+    color: #051622;
 }
