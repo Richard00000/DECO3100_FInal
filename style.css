@@ -1,12 +1,12 @@
 /* Global setting*/
 * {
     margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
 }
 
 /* Setting the backgournd color */
 body {
-    font-family: 'Ubuntu';
-    font-style: normal;
     background-color: #051622;
 }
 
@@ -296,7 +296,6 @@ h2 {
 }
 
 /* Setting the frame & layout for two button in side the story story 5(Read More) */
-
 a{
     text-decoration: none;
 }
