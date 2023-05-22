@@ -38,7 +38,7 @@ h2 {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    margin-right: 70px;
+    margin-right: 80px;
 }
 
 /* Setting the layout for the title of each part(2/2) */
